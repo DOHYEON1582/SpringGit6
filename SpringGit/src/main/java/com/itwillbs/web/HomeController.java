@@ -60,4 +60,16 @@ public class HomeController {
 		
 	}
 	
+	@RequestMapping(value = "/test", method = RequestMethod.GET)
+	public void Test3() {
+		logger.debug("Test3() �샇異�!!");
+		
+		logger.debug("1. �꽌鍮꾩뒪 媛앹껜 �깮�꽦");
+		
+		logger.debug("2. DAO 媛앹껜 �깮�꽦");
+		
+		logger.debug("3. mapper �샇異�");
+		
+	}
+	
 }
