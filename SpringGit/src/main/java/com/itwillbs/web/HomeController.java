@@ -70,6 +70,8 @@ public class HomeController {
 		
 		logger.debug("3. mapper �샇異�");
 		
+		logger.debug("4. Test4 실행");
+		
 	}
 	
 }
